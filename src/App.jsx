@@ -1,6 +1,7 @@
-export default function App() {
+import btnArrowIcon from "../images/icon-arrow.svg"
 
-    const btnText = ">"
+
+export default function App() {
 
     return (
         <main>
@@ -20,7 +21,9 @@ export default function App() {
                     </p>
                     <div className="email-box">
                         <input type="email" name="email" placeholder="Email Address"/>
-                        <button>{btnText}</button>
+                        <button> 
+                            <img src={btnArrowIcon} alt="icon" />
+                        </button>
                     </div>
                 </div>
             </section>
