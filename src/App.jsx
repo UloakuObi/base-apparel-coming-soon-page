@@ -1,4 +1,7 @@
 import btnArrowIcon from "../images/icon-arrow.svg"
+import mobileHeroImg from "../images/hero-mobile.jpg"
+import desktopHeroImg from "../images/hero-desktop.jpg"
+
 
 
 export default function App() {
@@ -34,13 +37,13 @@ export default function App() {
             <section className="hero-img">
                 <picture>
                         {/* -- Mobile image --*/}
-                        <source media="(max-width: 867px)" srcset="../images/hero-mobile.jpg" />
+                        <source media="(max-width: 867px)" srcset={mobileHeroImg} />
                         
                         {/* -- Desktop image -- */}
-                        <source media="(min-width: 868px)" srcset="../images/hero-desktop.jpg" />
+                        <source media="(min-width: 868px)" srcset={desktopHeroImg} />
                         
                         {/* -- Fallback (in case browser doesn’t support <picture>) -- */}
-                        <img src="../images/hero-desktop.jpg" alt="Hero image" />
+                        <img src={desktopHeroImg} alt="Hero image" />
                 </picture>
                 {/* <img src="" alt="#"/> */}
             </section>
