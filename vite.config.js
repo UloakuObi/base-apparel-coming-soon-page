@@ -4,6 +4,7 @@ import react from '@vitejs/plugin-react'
 // https://vitejs.dev/config/
 export default defineConfig({
   plugins: [react()],
+  base: '/base-apparel-coming-soon-page/',
   server: {
     port: 5173,   // you can change this if needed
     open: true    // auto-open browser when dev server starts
