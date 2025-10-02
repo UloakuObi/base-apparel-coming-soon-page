@@ -9,7 +9,9 @@ export default function App() {
             {/* Left column Desktop */}
             
             <header>
-                <img src="./images/logo.svg" alt="brand logo"/>
+                <div className="logo-wrapper">
+                    <img src="./images/logo.svg" alt="brand logo"/>
+                </div>
             </header>
 
             <section className="main-content">
