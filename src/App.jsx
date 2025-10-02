@@ -10,7 +10,7 @@ export default function App() {
             
             <header>
                 <div className="logo-wrapper">
-                    <img src="./images/logo.svg" alt="brand logo"/>
+                    <img src="../images/logo.svg" alt="brand logo"/>
                 </div>
             </header>
 
@@ -40,7 +40,7 @@ export default function App() {
                         <source media="(min-width: 868px)" srcset="./images/hero-desktop.jpg" />
                         
                         {/* -- Fallback (in case browser doesn’t support <picture>) -- */}
-                        <img src="hero-desktop.jpg" alt="Hero image" />
+                        <img src="../images/hero-desktop.jpg" alt="Hero image" />
                 </picture>
                 {/* <img src="" alt="#"/> */}
             </section>
