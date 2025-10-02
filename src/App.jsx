@@ -20,7 +20,7 @@ export default function App() {
 
             <section className="main-content">
                 <div className="signup-msg">
-                    <h1><span>We're</span> Coming Soon!</h1>
+                    <h1><span>We're</span> Coming Soon</h1>
                     <p className="welcome-msg">
                         Hello fellow shoppers! We're currently building our new fashion store. 
                         Add your email below to stay up-to-date with announcements and our launch deals.
