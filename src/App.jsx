@@ -1,6 +1,7 @@
 import btnArrowIcon from "../images/icon-arrow.svg"
 import mobileHeroImg from "../images/hero-mobile.jpg"
 import desktopHeroImg from "../images/hero-desktop.jpg"
+import logoImg from "../images/logo.svg"
 
 
 
@@ -13,7 +14,7 @@ export default function App() {
             
             <header>
                 <div className="logo-wrapper">
-                    <img src="../images/logo.svg" alt="brand logo"/>
+                    <img src={logoImg} alt="brand logo"/>
                 </div>
             </header>
 
